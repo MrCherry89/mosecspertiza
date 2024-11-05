@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-Light.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Light.woff") format("woff"),
+    url("../fonts/RobotoSlab-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Regular.woff") format("woff"),
+    url("../fonts/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Coolvetica Condensed Rg";
+  src: url("../fonts/CoolveticaCondensedRg-Regular.woff2") format("woff2"),
+    url("../fonts/CoolveticaCondensedRg-Regular.woff") format("woff"),
+    url("../fonts/CoolveticaCondensedRg-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
