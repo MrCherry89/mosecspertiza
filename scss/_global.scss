@@ -77,6 +77,9 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 60px;
+  @media (max-width: 1920px) {
+    max-width: 1640px;
+  }
   @media (max-width: 1600px) {
     padding: 0 20px;
   }
@@ -480,17 +483,17 @@ a {
     }
 
     .swiper-slide {
-      height: 800px;
+      height: 740px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       position: relative;
       z-index: 0;
       @media (max-width: 1400px) {
-        height: 870px;
+        height: 780px;
       }
       @media (max-width: 1200px) {
-        height: 700px;
+        height: 710px;
       }
       @media (max-width: 1024px) {
         height: auto;
@@ -641,7 +644,7 @@ a {
         }
       }
       .date {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 100%;
         color: #000;
         display: inline-block;
@@ -656,7 +659,7 @@ a {
       }
       p {
         color: #3232f0;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 100%;
         font-weight: normal;
         @include flex;
@@ -669,8 +672,8 @@ a {
         }
       }
       .text {
-        font-size: 18px;
-        line-height: 104%;
+        font-size: 16px;
+        line-height: 18px;
         color: #000;
         display: block;
         font-weight: 300;
