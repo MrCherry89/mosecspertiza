@@ -3,7 +3,7 @@ $blue: #3232f0;
 body,
 html {
   overflow-x: hidden;
-  font-family: "Coolvetica Condensed Rg";
+  font-family: "Coolvetica";
   &.overflow {
     overflow: hidden !important;
   }
@@ -20,7 +20,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Coolvetica Condensed Rg";
+  font-family: "Coolvetica";
 }
 
 input,
@@ -89,7 +89,7 @@ a {
 }
 
 .header {
-  margin: 40px 0;
+  margin: 80px 0;
   @include flex;
   @media (max-width: 1024px) {
     position: relative;
@@ -175,7 +175,7 @@ a {
       }
     }
     .top {
-      padding-bottom: 12px;
+      padding-bottom: 20px;
       border-bottom: 15px solid $blue;
       @include flex;
       @include justify-between;
@@ -330,7 +330,7 @@ a {
       }
     }
     .main-menu {
-      padding-top: 12px;
+      padding-top: 20px;
       @include flex;
       @media (max-width: 1024px) {
         @include dir-col;
@@ -691,7 +691,7 @@ a {
   .home-links {
     width: 100%;
     border-top: 1px solid #000;
-    margin-top: 80px;
+    margin-top: 100px;
     order: 2;
     @media (max-width: 1024px) {
       margin: 20px 0;
@@ -780,7 +780,7 @@ a {
         span {
           font-size: 32px;
           line-height: 110%;
-          font-weight: 400;
+          font-weight: 300;
           color: #000;
           text-transform: uppercase;
           transition: 0.3s;
@@ -814,11 +814,11 @@ a {
 }
 
 .brand-slider {
-  margin: 40px 0 80px;
+  margin: 100px 0 80px;
   overflow: hidden;
   padding: 0 5px;
   @media (max-width: 1600px) {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   @media (max-width: 767px) {
     margin: 20px 0;

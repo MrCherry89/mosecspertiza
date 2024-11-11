@@ -1,7 +1,7 @@
 body,
 html {
   overflow-x: hidden;
-  font-family: "Coolvetica Condensed Rg";
+  font-family: "Coolvetica";
 }
 body.overflow,
 html.overflow {
@@ -26,7 +26,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Coolvetica Condensed Rg";
+  font-family: "Coolvetica";
 }
 
 input,
@@ -100,7 +100,7 @@ a:focus {
 }
 
 .header {
-  margin: 40px 0;
+  margin: 80px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,7 +221,7 @@ a:focus {
   }
 }
 .header .menu-wrap .top {
-  padding-bottom: 12px;
+  padding-bottom: 20px;
   border-bottom: 15px solid #3232f0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -423,7 +423,7 @@ a:focus {
   display: flex;
 }
 .header .menu-wrap .main-menu {
-  padding-top: 12px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -875,7 +875,7 @@ a:focus {
 .home-info .home-links {
   width: 100%;
   border-top: 1px solid #000;
-  margin-top: 80px;
+  margin-top: 100px;
   order: 2;
 }
 @media (max-width: 1024px) {
@@ -995,7 +995,7 @@ a:focus {
 .home-info .home-links .home-link .texts span {
   font-size: 32px;
   line-height: 110%;
-  font-weight: 400;
+  font-weight: 300;
   color: #000;
   text-transform: uppercase;
   transition: 0.3s;
@@ -1035,13 +1035,13 @@ a:focus {
 }
 
 .brand-slider {
-  margin: 40px 0 80px;
+  margin: 100px 0 80px;
   overflow: hidden;
   padding: 0 5px;
 }
 @media (max-width: 1600px) {
   .brand-slider {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
 }
 @media (max-width: 767px) {
@@ -1160,11 +1160,16 @@ a:focus {
   font-display: swap;
 }
 @font-face {
-  font-family: "Coolvetica Condensed Rg";
-  src: url("../fonts/CoolveticaCondensedRg-Regular.woff2") format("woff2"), url("../fonts/CoolveticaCondensedRg-Regular.woff") format("woff"), url("../fonts/CoolveticaCondensedRg-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "Coolvetica";
+  src: url("../fonts/CoolveticaCondensedBk-Regular.woff2") format("woff2"), url("../fonts/CoolveticaCondensedBk-Regular.woff") format("woff"), url("../fonts/CoolveticaCondensedBk-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../fonts/CoolveticaCondensedEl-Regular.ttf") format("woff2"), url("../fonts/CoolveticaCondensedEl-Regular.ttf") format("woff"), url("../fonts/CoolveticaCondensedEl-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
