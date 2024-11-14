@@ -59,11 +59,11 @@ a:focus {
 }
 
 .wrapper {
-  min-width: 1600px;
-  max-width: 1600px;
+  min-width: 1800px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 140px;
 }
 
 .header {

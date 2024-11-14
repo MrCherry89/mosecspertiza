@@ -3,6 +3,7 @@ $blue: #3232f0;
 body,
 html {
   font-family: "Coolvetica";
+  // overflow: hidden;
   // &.overflow {
   //   overflow: hidden !important;
   // }
@@ -72,11 +73,11 @@ a {
 }
 
 .wrapper {
-  min-width: 1600px;
-  max-width: 1600px;
+  min-width: 1800px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 140px;
 
   // @media (max-width: 1920px) {
   //   max-width: 1640px;
